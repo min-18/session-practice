@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당근당근 마켓</title>
+    <link rel="stylesheet" href="c_style.css" />
+  </head>
+
+  <body>
+    <header class="top-cotainer">
+      <!-- 당근마켓 -->
+      <image class="logo" src="carrot_market.png"></image>
+    </header>
+
+    <section class="carrot-section">
+      <div class="main-cotainer">
+        <div class="main-title">인기중고</div>
+
+        <div class="main-wrap">
+          <!-- 1번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image class="product-photo" src="ggang.png"></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <!-- 클래스명이 같으면 리스트형태로 순서대로 담긴다. ; 인덱스값으로 구분 -->
+                <image class="heart" src="like.png" onclick="like(0)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 2번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image class="product-photo" src="cow.jpeg"></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(1)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 3번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image class="product-photo" src="milk.jpeg"></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(2)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-wrap">
+          <!-- 4번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image class="product-photo" src="ggang.png"></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(3)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 5번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image
+                class="product-photo"
+                src="cow.jpeg"
+                onclick="like(4)"
+              ></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(4)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 6번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image
+                class="product-photo"
+                src="milk.jpeg"
+                onclick="like(5)"
+              ></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(5)"></image>
+                <div class="like-num">3</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-wrap">
+          <!-- 7번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image
+                class="product-photo"
+                src="ggang.png"
+                onclick="like(6)"
+              ></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(6)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 8번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image
+                class="product-photo"
+                src="cow.jpeg"
+                onclick="like(7)"
+              ></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(7)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+          <!-- 9번째 상품 -->
+          <div class="product-module">
+            <div class="product">
+              <image
+                class="product-photo"
+                src="milk.jpeg"
+                onclick="like(8)"
+              ></image>
+            </div>
+            <div class="product-title">새우깡</div>
+            <div class="product-address">서울시 동작구 흑석동</div>
+            <div class="product-detail">
+              <div class="price">10만원</div>
+              <div class="like">
+                <image class="heart" src="like.png" onclick="like(8)"></image>
+                <div class="like-num">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="c"></footer>
+    <script src="app.js"></script>
+  </body>
+</html>
